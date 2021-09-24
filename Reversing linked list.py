@@ -33,7 +33,7 @@ class LinkedList:
             pre=temp
         self.head=pre
 
-    def reverse(self):
+    def reverse_itratively(self):
         pre=None
         cur=self.head
         while cur:
